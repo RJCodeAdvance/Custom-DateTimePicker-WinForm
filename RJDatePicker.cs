@@ -33,7 +33,7 @@ namespace CustomControls.RJControls
             set
             {
                 skinColor = value;
-                if (skinColor.GetBrightness() >= 0.8F)
+                if (skinColor.GetBrightness() >= 0.6F)
                     calendarIcon = Properties.Resources.calendarDark;
                 else calendarIcon = Properties.Resources.calendarWhite;
                 this.Invalidate();
